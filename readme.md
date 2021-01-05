@@ -1,22 +1,7 @@
 # VoF_Microchannel
  This is a two-phase flow model in a microchannel.
-$$
-\begin{equation}
-\frac{\partial \alpha}{\partial t}+\bf U\cdot\nabla\alpha=0
-\end{equation}
-$$
 
-$$
-\begin{equation}
-\frac{\partial \rho \mathbf{U}}{\partial t}+\nabla \cdot  (\rho \mathbf{U} \mathbf{U} ) - \nabla\cdot\left(\nu\nabla\bf U\right)-\nabla\bf U\cdot\nabla\nu =-\nabla p_\mathrm{rgh}-\bf g\cdot \bf h \nabla \rho+\sigma \kappa \nabla \alpha
-\end{equation}
-$$
-
-$$
-\begin{equation}
-\nabla\cdot\bf U=0
-\end{equation}
-$$
+![image](https://github.com/WestonChang/VoF_Microchannel/blob/main/Result/formula.png)
 
 The VOF model is chosen to simulate the flow of gas-liquid two-phase in a channel(d=3.2mm).The validity of the simulation parameters and model selection is verified under the conditions of previous experiments to simulate a similar gas-liquid flow pattern.The slug flow can be formed when the velocity ratio of gas and liquid is 1:1 or so,and the length of the gas and liquid slug increases with the increase of superficial velocity.
 
@@ -64,7 +49,9 @@ interFoam
 
 ## Result
 
-You can view this in the Result file![Result](C:\Users\Chang\Documents\GitHub\VoF_Microchannel\Result\Result.png)
+You can view this in the Result file.
+
+![image](https://github.com/WestonChang/VoF_Microchannel/blob/main/Result/Result.png)
 
 ## Similar case
 

@@ -53,7 +53,7 @@ You can view this in the Result file.
 
 ![image](https://github.com/WestonChang/VoF_Microchannel/blob/main/Result/Result.png)
 
-## Similar case
+## Similar cases
 
 COMSOL - Study of Two-Phase Microslug Formation in a Microchannel Cross Junction https://www.comsol.com/paper/study-of-two-phase-microslug-formation-in-a-microchannel-cross-junction-8081
 
